@@ -19,3 +19,18 @@
   --corner-color: #353430;
   --decoration-visible: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #FF8DCB;
+    --button-text-color: #353430;
+    --button_active: #353430;
+    --article-text-color: #353430;
+    --button-text-color-underline: #353430;
+    --focus-color: #FFC2E6;
+    --header-img: url('../images/cover-image-light.png');
+    --button-hover: rgba(50, 49, 45, 0.4);
+    --corner-color: #353430;
+    --decoration-visible: none;
+  }
+}

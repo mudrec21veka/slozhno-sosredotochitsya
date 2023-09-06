@@ -3,8 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-:root {
+.page.theme_dark {
   --accent-color: #FF0070;
   --button-text-color: #FF0070;
   --button-text-color-underline: #FF0070;
@@ -15,4 +14,19 @@
   --header-img: url('../images/cover-image-dark.png');
   --button-hover: rgba(255, 0, 112, 0.4);
   --corner-color: #FF0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #FF0070;
+    --button-text-color: #FF0070;
+    --button-text-color-underline: #FF0070;
+    --button_active: #FF0070;
+    --article-text-color: #F1B2CE;
+    --bacground-color: #000028;
+    --focus-color: #DB00FF;
+    --header-img: url('../images/cover-image-dark.png');
+    --button-hover: rgba(255, 0, 112, 0.4);
+    --corner-color: #FF0070;
+  }
 }
