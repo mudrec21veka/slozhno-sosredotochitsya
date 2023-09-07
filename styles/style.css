@@ -17,6 +17,7 @@
   padding: 20px 20px 20px 0; 
   transition: 1s;
   block-size: 100vh;
+  min-height: 668px;
   inline-size: 100%;
 }
 
@@ -46,6 +47,7 @@
   grid-column-start: 2;
   grid-column-end: 3;
   justify-self: center;
+  padding-right: 20px;
 }
 
 .header__theme-menu-list {
@@ -93,6 +95,7 @@
   line-height: 138.889%;
   text-transform: uppercase;
 }
+/*Любовь немного не пойму комментарий по "Сейчас значок не появляется вообще", у меня он отображается при темной теме, и пропадает при светлой.*/
 
 .header__decoration:after {
   content: '';
@@ -161,6 +164,7 @@
   grid-column-start: 1;
   grid-column-end: 4;
   margin-bottom: 20px;
+  max-width: calc(100% / 3);
 }
 
 .article__header {
@@ -377,6 +381,7 @@
 
   .section__title {
     margin-bottom: 20px;
+    max-width: 90%;
   }
 
   .gallery {
