@@ -16,6 +16,10 @@
   --corner-color: #FF0070;
 }
 
+.theme_dark .header__decoration {
+  display: inline-block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #FF0070;
@@ -28,5 +32,8 @@
     --header-img: url('../images/cover-image-dark.png');
     --button-hover: rgba(255, 0, 112, 0.4);
     --corner-color: #FF0070;
+  }
+  .theme_dark .header__decoration {
+    display: inline-block;
   }
 }

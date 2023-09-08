@@ -20,6 +20,10 @@
   --decoration-visible: none;
 }
 
+.theme_light .header__decoration {
+  display: var(--decoration-visible);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #FF8DCB;
@@ -32,5 +36,8 @@
     --button-hover: rgba(50, 49, 45, 0.4);
     --corner-color: #353430;
     --decoration-visible: none;
+  }
+  .theme_light .header__decoration {
+    display: var(--decoration-visible);
   }
 }
