@@ -152,7 +152,7 @@
 }
 
 .section__title {
-  color: var(--article-text-color);
+  color: var(--title-text-color);
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -275,6 +275,7 @@
     grid-column-end: 4;
     justify-self: end;
     align-self: center;
+    padding-right: 0;
   }
   
   .header__theme-menu-list {
